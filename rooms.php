@@ -16,6 +16,27 @@
 <body>
 
 <?php require('inc/header.php'); ?>
+<section class="home_carousel food_home">
+	<div class="swiper home_swiper">
+      <div class="swiper-wrapper">
+			<div class="swiper-slide home_slide" style="background:url(images/rooms/IMG_11892.png);">
+				<div class="overlay"></div>
+			</div>
+			<div class="swiper-slide home_slide" style="background:url(images/rooms/IMG_39782.png);">
+			<div class="overlay"></div>
+
+			</div>
+			<div class="swiper-slide home_slide" style="background:url(images/rooms/IMG_65019.png);">
+			<div class="overlay"></div>
+
+			</div>
+			
+		</div>
+	</div>
+	<div class="food_bg_text">
+		<h1>rooms</h1>
+  </div>
+</section>
 
 <div class="my-5 px-4">
   <h2 class="fw-bold h-font text-center">OUR ROOMS</h2>
@@ -234,7 +255,7 @@
     <div class="col-md-2 text-center">
       <h6 class="mb-4">Ꝛ2000 per night </h6>
       <a href="#" class="btn btn-sm w-100 text-white custom-bg shadow-none mb-2">Book Now</a>
-      <a href="#" class="btn btn-sm w-100 btn-outline-dark shadow-none">More details</a>
+      <a href="room_details.php" class="btn btn-sm w-100 btn-outline-dark shadow-none">More details</a>
     </div>
   </div>
 </div>
@@ -247,6 +268,17 @@
 
 
 <?php require('inc/footer.php'); ?>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  var swiper = new Swiper(".home_swiper", {
+        spaceBetween: 30,
+        effect: "fade",
+        loop: true,
+        autoplay: {
+        	delay: 10000,
+        	disableOnInteraction: false,
+        }
+      });
+</script>
 </body>
 </html>

@@ -16,6 +16,27 @@
 <body>
 
 <?php require('inc/header.php'); ?>
+<section class="home_carousel food_home">
+	<div class="swiper home_swiper">
+      <div class="swiper-wrapper">
+			<div class="swiper-slide home_slide" style="background:url(images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg);">
+				<div class="overlay"></div>
+			</div>
+			<div class="swiper-slide home_slide" style="background:url(images/rooms/IMG_39782.png);">
+			<div class="overlay"></div>
+
+			</div>
+			<div class="swiper-slide home_slide" style="background:url(images/rooms/IMG_65019.png);">
+			<div class="overlay"></div>
+
+			</div>
+			
+		</div>
+	</div>
+	<div class="food_bg_text">
+		<h1>contact</h1>
+  </div>
+</section>
 
 <div class="my-5 px-4">
   <h2 class="fw-bold h-font text-center">CONTACT US</h2>
@@ -89,7 +110,21 @@
   </div>
 </div>
 
+
+<script>
+  var swiper = new Swiper(".home_swiper", {
+        spaceBetween: 30,
+        effect: "fade",
+        loop: true,
+        autoplay: {
+        	delay: 10000,
+        	disableOnInteraction: false,
+        }
+      });
+</script>
+
 <?php require('inc/footer.php'); ?>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
 </body>
 </html>

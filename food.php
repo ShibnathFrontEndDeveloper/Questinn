@@ -10,243 +10,418 @@
 />
 <link rel="stylesheet" type="text/css" href="css/common.css">
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 
 </head>
 <body>
 
 <?php require('inc/header.php'); ?>
+<section class="home_carousel food_home">
+	<div class="swiper home_swiper">
+      <div class="swiper-wrapper">
+			<div class="swiper-slide home_slide" style="background:url(images/Foods/food_banner_1.png);">
+				<div class="overlay"></div>
+			</div>
+			<div class="swiper-slide home_slide" style="background:url(images/Foods/food_banner_2.png);">
+			<div class="overlay"></div>
 
-<div class="my-5 px-4">
-  <h2 class="fw-bold h-font text-center">OUR ROOMS</h2>
+			</div>
+			<div class="swiper-slide home_slide" style="background:url(images/Foods/food_banner_3.png);">
+			<div class="overlay"></div>
 
-  <div class="h-line bg-dark"></div>
- 
-</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="food_bg_text">
+		<h1>food</h1>
+  </div>
+</section>
 
-<div class="container">
-  <div class="row">
-   <div class="col-lg-3 col-md-12 mb-lg-0 mb-4 px-0">
-
-     <nav class="navbar navbar-expand-lg navbar-light bg-white rounded shadow">
-  <div class="container-fluid flex-lg-column align-items-stretch">
-    <h4 class="mt-2">FILTERS</h4>
-    <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#filterDropdown" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse flex-column align-items-stretch mt-2" id="filterDropdown">
-      <div class="border bg-light p-3 rounded mb-3">
-        <h5 class="mb-3" style="font-size: 18px;">CHECK AVAILABILITY</h5>
-        <label class="form-label">Check-in</label>
-        <input type="date" class="form-control shadow-none mb-3">
-        <label class="form-label">Check-in</label>
-        <input type="date" class="form-control shadow-none">
+<section class="food" id="food_sec">
+  <div class="container">
+    <h1>breakfast</h1>
+    <div class="swiper food_swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="food_box">
+            <img src="images/Foods/sandwich-cup-coffee-table.jpg" alt="" class="img-fluid">
+            <h5>Jelly bread with orange juice</h5>
+            <span><i class="bi bi-currency-rupee"></i>80</span>
+            <form action="" class="d-flex align-items-center">
+              <input type="text" value="1" class="counter_one form-control"/>
+              <button type="button" class="increment_btn"><i class="bi bi-plus"></i></button>
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="food_box">
+            <img src="images/Foods/breakfast-consists-bread-boiled-eggs-black-grape-salad-dressing-tomatoes-sliced-onions.jpg" alt="" class="img-fluid">
+            <h5>Jelly bread with orange juice</h5>
+            <span><i class="bi bi-currency-rupee"></i>80</span>
+            <form action="" class="d-flex align-items-center">
+              <input type="text" value="1" class="counter_two form-control"/>
+              <button type="button" class="incrementOne_btn"><i class="bi bi-plus"></i></button>              
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+            </form>
+            
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="food_box">
+            <img src="images/Foods/plate-food-with-glass-orange-juice-plate-food-with-sandwich.jpg" alt="" class="img-fluid">
+            <h5>Jelly bread with orange juice</h5>
+            <span><i class="bi bi-currency-rupee"></i>80</span>
+            <form action="" class="d-flex align-items-center">
+              <input type="text" value="1" class="counter_three form-control"/>
+              <button type="button" class="incrementTwo_btn"><i class="bi bi-plus"></i></button>
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+            </form>
+            
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="food_box">
+            <img src="images/Foods/coffee-beverage-sandwich.jpg" alt="" class="img-fluid">
+            <h5>Jelly bread with orange juice</h5>
+            <span><i class="bi bi-currency-rupee"></i>80</span>
+            <form action="" class="d-flex align-items-center">
+              <input type="text" value="1" class="counter_four form-control"/>
+              <button type="button" class="incrementThree_btn"><i class="bi bi-plus"></i></button>
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="swiper-slide">
+        <div class="food_box">
+          <img src="images/Foods/omlet_bred.jpg" alt="" class="img-fluid">
+          <h5>Jelly bread with orange juice</h5>
+          <span><i class="bi bi-currency-rupee"></i>80</span>
+          <form action="" class="d-flex align-items-center">
+            <input type="text" value="1" class="counter_five form-control"/>
+            <button type="button" class="incrementFour_btn"><i class="bi bi-plus"></i></button>
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+          </form>
+        </div>
       </div>
-      <div class="border bg-light p-3 rounded mb-3">
-        <h5 class="mb-3" style="font-size: 18px;">FACILITIES</h5>
-        <div class="mb-2">
-          <input type="checkbox" id="f1" class="form-check-input shadow-none me-1">
-          <label class="form-check-label" for="f1">Facility one</label>
-        </div>
-        <div class="mb-2">
-          <input type="checkbox" id="f1" class="form-check-input shadow-none me-1">
-          <label class="form-check-label" for="f2">Facility two</label>
-        </div>
-        <div class="mb-2">
-          <input type="checkbox" id="f1" class="form-check-input shadow-none me-1">
-          <label class="form-check-label" for="f3">Facility three</label>
-        </div>
-      </div>
-      <div class="border bg-light p-3 rounded mb-3">
-        <h5 class="mb-3" style="font-size: 18px;">Adults</h5>
-        <div class="d-flex">
-          <div class="me-2">
-          <label class="form-label">Adults</label>
-          <input type="number" class="form-control shadow-none">
-        </div>
-        <div>
-          <label class="form-label">Children</label>
-          <input type="number" class="form-control shadow-none">
-        </div>
+      <div class="swiper-slide">
+        <div class="food_box">
+          <img src="images/Foods/bred_juice.jpg" alt="" class="img-fluid">
+          <h5>Jelly bread with orange juice</h5>
+          <span><i class="bi bi-currency-rupee"></i>80</span>
+          <form action="" class="d-flex align-items-center">
+            <input type="text" value="1" class="counter_six form-control"/>
+            <button type="button" class="incrementFive_btn"><i class="bi bi-plus"></i></button>
+            <div class="order_box">
+              <button type="submit"class="order_btn">order now</button>
+            </div>
+          </form>
         </div>
       </div>
+      </div>
     </div>
-  </div>
-</nav>
-</div>
-
-<div class="col-lg-9 col-md-12 px-4">
-  <div class="card mb-4 border-0 shadow">
-  <div class="row g-0 p-3 align-items-center">
-    <div class="col-md-5 mb-lg-0 mb-md-0 mb-3">
-      <img src="images/rooms/1.jpg" class="img-fluid rounded">
-    </div>
-    <div class="col-md-5 px-lg-3 px-md-3 px-0">
-      <h5 class="mb-3">Simple Room Name</h5>
-      <div class="features mb-4">
-            <h6 class="mb-1">Features</h6>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              2 Rooms
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              1 Bathroom
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              1 Balcony
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              3 Sofa
-            </span>
-          </div>
-          <div class="Facilities mb-3">
-            <h6 class="mb-1">Facilities</h6>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              Wifi
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              Television
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              AC
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              Room Heater
-            </span>
-          </div>
-          <div class="guests">
-            <h6 class="mb-1">Guests</h6>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              5 Adults
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              4 Children
-            </span>
-          </div>  
-    </div>
-    <div class="col-md-2 mt-lg-0 mt-md-0 mt-4 text-center">
-      <h6 class="mb-4">Ꝛ2000 per night </h6>
-      <a href="#" class="btn btn-sm w-100 text-white custom-bg shadow-none mb-2">Book Now</a>
-      <a href="#" class="btn btn-sm w-100 btn-outline-dark shadow-none">More details</a>
-    </div>
-  </div>
- </div>
- <div class="card mb-4 border-0 shadow">
-  <div class="row g-0 p-3 align-items-center">
-    <div class="col-md-5 mb-lg-0 mb-md-0 mb-3">
-      <img src="images/rooms/1.jpg" class="img-fluid rounded">
-    </div>
-    <div class="col-md-5 px-lg-3 px-md-3 px-0">
-      <h5 class="mb-3">Simple Room Name</h5>
-      <div class="features mb-4">
-            <h6 class="mb-1">Features</h6>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              2 Rooms
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              1 Bathroom
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              1 Balcony
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              3 Sofa
-            </span>
-          </div>
-          <div class="Facilities mb-3">
-            <h6 class="mb-1">Facilities</h6>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              Wifi
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              Television
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              AC
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              Room Heater
-            </span>
-          </div>
-          <div class="guests">
-            <h6 class="mb-1">Guests</h6>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              5 Adults
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              4 Children
-            </span>
-          </div>  
-    </div>
-    <div class="col-md-2 text-center">
-      <h6 class="mb-4">Ꝛ2000 per night </h6>
-      <a href="#" class="btn btn-sm w-100 text-white custom-bg shadow-none mb-2">Book Now</a>
-      <a href="#" class="btn btn-sm w-100 btn-outline-dark shadow-none">More details</a>
-    </div>
-  </div>
-</div>
-<div class="card mb-4 border-0 shadow">
-  <div class="row g-0 p-3 align-items-center">
-    <div class="col-md-5 mb-lg-0 mb-md-0 mb-3">
-      <img src="images/rooms/1.jpg" class="img-fluid rounded">
-    </div>
-    <div class="col-md-5 px-lg-3 px-md-3 px-0">
-      <h5 class="mb-3">Simple Room Name</h5>
-      <div class="features mb-4">
-            <h6 class="mb-1">Features</h6>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              2 Rooms
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              1 Bathroom
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              1 Balcony
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              3 Sofa
-            </span>
-          </div>
-          <div class="Facilities mb-3">
-            <h6 class="mb-1">Facilities</h6>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              Wifi
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              Television
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              AC
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              Room Heater
-            </span>
-          </div>
-          <div class="guests">
-            <h6 class="mb-1">Guests</h6>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">  
-              5 Adults
-            </span>
-            <span class="badge rounded-pill bg-light text-dark text-wrap">
-              4 Children
-            </span>
-          </div>  
-    </div>
-    <div class="col-md-2 text-center">
-      <h6 class="mb-4">Ꝛ2000 per night </h6>
-      <a href="#" class="btn btn-sm w-100 text-white custom-bg shadow-none mb-2">Book Now</a>
-      <a href="#" class="btn btn-sm w-100 btn-outline-dark shadow-none">More details</a>
-    </div>
-  </div>
-</div>
-</div>
-
 
   </div>
-</div>
+
+  <!-- Lunch -->
+
+  <div class="container">
+    <h1 class="mt-5">lunch</h1>
+    <div class="swiper food_swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="food_box">
+            <img src="images/Foods/sandwich-cup-coffee-table.jpg" alt="" class="img-fluid">
+            <h5>Jelly bread with orange juice</h5>
+            <span><i class="bi bi-currency-rupee"></i>80</span>
+            <form action="" class="d-flex align-items-center">
+              <input type="text" value="1" class="counter_one form-control"/>
+              <button type="button" class="increment_btn"><i class="bi bi-plus"></i></button>
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="food_box">
+            <img src="images/Foods/breakfast-consists-bread-boiled-eggs-black-grape-salad-dressing-tomatoes-sliced-onions.jpg" alt="" class="img-fluid">
+            <h5>Jelly bread with orange juice</h5>
+            <span><i class="bi bi-currency-rupee"></i>80</span>
+            <form action="" class="d-flex align-items-center">
+              <input type="text" value="1" class="counter_two form-control"/>
+              <button type="button" class="incrementOne_btn"><i class="bi bi-plus"></i></button>              
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+            </form>
+            
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="food_box">
+            <img src="images/Foods/plate-food-with-glass-orange-juice-plate-food-with-sandwich.jpg" alt="" class="img-fluid">
+            <h5>Jelly bread with orange juice</h5>
+            <span><i class="bi bi-currency-rupee"></i>80</span>
+            <form action="" class="d-flex align-items-center">
+              <input type="text" value="1" class="counter_three form-control"/>
+              <button type="button" class="incrementTwo_btn"><i class="bi bi-plus"></i></button>
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+            </form>
+            
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="food_box">
+            <img src="images/Foods/coffee-beverage-sandwich.jpg" alt="" class="img-fluid">
+            <h5>Jelly bread with orange juice</h5>
+            <span><i class="bi bi-currency-rupee"></i>80</span>
+            <form action="" class="d-flex align-items-center">
+              <input type="text" value="1" class="counter_four form-control"/>
+              <button type="button" class="incrementThree_btn"><i class="bi bi-plus"></i></button>
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="swiper-slide">
+        <div class="food_box">
+          <img src="images/Foods/omlet_bred.jpg" alt="" class="img-fluid">
+          <h5>Jelly bread with orange juice</h5>
+          <span><i class="bi bi-currency-rupee"></i>80</span>
+          <form action="" class="d-flex align-items-center">
+            <input type="text" value="1" class="counter_five form-control"/>
+            <button type="button" class="incrementFour_btn"><i class="bi bi-plus"></i></button>
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+          </form>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="food_box">
+          <img src="images/Foods/bred_juice.jpg" alt="" class="img-fluid">
+          <h5>Jelly bread with orange juice</h5>
+          <span><i class="bi bi-currency-rupee"></i>80</span>
+          <form action="" class="d-flex align-items-center">
+            <input type="text" value="1" class="counter_six form-control"/>
+            <button type="button" class="incrementFive_btn"><i class="bi bi-plus"></i></button>
+            <div class="order_box">
+              <button type="submit"class="order_btn">order now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Dinner -->
+
+  <div class="container">
+    <h1 class="mt-5">dinner</h1>
+    <div class="swiper food_swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="food_box">
+            <img src="images/Foods/sandwich-cup-coffee-table.jpg" alt="" class="img-fluid">
+            <h5>Jelly bread with orange juice</h5>
+            <span><i class="bi bi-currency-rupee"></i>80</span>
+            <form action="" class="d-flex align-items-center">
+              <input type="text" value="1" class="counter_one form-control"/>
+              <button type="button" class="increment_btn"><i class="bi bi-plus"></i></button>
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="food_box">
+            <img src="images/Foods/breakfast-consists-bread-boiled-eggs-black-grape-salad-dressing-tomatoes-sliced-onions.jpg" alt="" class="img-fluid">
+            <h5>Jelly bread with orange juice</h5>
+            <span><i class="bi bi-currency-rupee"></i>80</span>
+            <form action="" class="d-flex align-items-center">
+              <input type="text" value="1" class="counter_two form-control"/>
+              <button type="button" class="incrementOne_btn"><i class="bi bi-plus"></i></button>              
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+            </form>
+            
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="food_box">
+            <img src="images/Foods/plate-food-with-glass-orange-juice-plate-food-with-sandwich.jpg" alt="" class="img-fluid">
+            <h5>Jelly bread with orange juice</h5>
+            <span><i class="bi bi-currency-rupee"></i>80</span>
+            <form action="" class="d-flex align-items-center">
+              <input type="text" value="1" class="counter_three form-control"/>
+              <button type="button" class="incrementTwo_btn"><i class="bi bi-plus"></i></button>
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+            </form>
+            
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="food_box">
+            <img src="images/Foods/coffee-beverage-sandwich.jpg" alt="" class="img-fluid">
+            <h5>Jelly bread with orange juice</h5>
+            <span><i class="bi bi-currency-rupee"></i>80</span>
+            <form action="" class="d-flex align-items-center">
+              <input type="text" value="1" class="counter_four form-control"/>
+              <button type="button" class="incrementThree_btn"><i class="bi bi-plus"></i></button>
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="swiper-slide">
+        <div class="food_box">
+          <img src="images/Foods/omlet_bred.jpg" alt="" class="img-fluid">
+          <h5>Jelly bread with orange juice</h5>
+          <span><i class="bi bi-currency-rupee"></i>80</span>
+          <form action="" class="d-flex align-items-center">
+            <input type="text" value="1" class="counter_five form-control"/>
+            <button type="button" class="incrementFour_btn"><i class="bi bi-plus"></i></button>
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+          </form>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="food_box">
+          <img src="images/Foods/bred_juice.jpg" alt="" class="img-fluid">
+          <h5>Jelly bread with orange juice</h5>
+          <span><i class="bi bi-currency-rupee"></i>80</span>
+          <form action="" class="d-flex align-items-center">
+            <input type="text" value="1" class="counter_six form-control"/>
+            <button type="button" class="incrementFive_btn"><i class="bi bi-plus"></i></button>
+            <div class="order_box">
+              <button type="submit"class="order_btn">order now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
 
 
 
 <?php require('inc/footer.php'); ?>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<script>
+  var swiper = new Swiper(".home_swiper", {
+        spaceBetween: 30,
+        effect: "fade",
+        loop: true,
+        autoplay: {
+        	delay: 10000,
+        	disableOnInteraction: false,
+        }
+      });
+
+      var swiper = new Swiper(".food_swiper", {
+      slidesPerView: 4,
+      spaceBetween: 40,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+      },
+    });
+
+
+
+
+    
+    var $button1 = $('.increment_btn')
+    var $counter_one = $('.counter_one');
+    
+    var $button2 = $('.incrementOne_btn');
+    var $counter2 = $('.counter_two');
+    var $button3 = $('.incrementTwo_btn');
+    var $counter3 = $('.counter_three');
+    var $button4 = $('.incrementThree_btn');
+    var $counter4 = $('.counter_four');
+    var $button5 = $('.incrementFour_btn');
+    var $counter5 = $('.counter_five');
+    var $button6 = $('.incrementFive_btn');
+    var $counter6 = $('.counter_six');
+
+    $button1.click(function(){
+      $counter_one.val( parseInt($counter_one.val()) + 1 ); // `parseInt` converts the `value` from a string to a number
+    });
+
+
+    $button2.click(function(){
+      $counter2.val( parseInt($counter2.val()) + 1 ); // `parseInt` converts the `value` from a string to a number
+    });
+
+      $button3.click(function(){
+      $counter3.val( parseInt($counter3.val()) + 1 ); // `parseInt` converts the `value` from a string to a number
+    });
+
+      $button4.click(function(){
+      $counter4.val( parseInt($counter4.val()) + 1 ); // `parseInt` converts the `value` from a string to a number
+    });
+
+      $button5.click(function(){
+      $counter5.val( parseInt($counter5.val()) + 1 ); // `parseInt` converts the `value` from a string to a number
+    });
+
+      $button6.click(function(){
+      $counter6.val( parseInt($counter6.val()) + 1 ); // `parseInt` converts the `value` from a string to a number
+    });
+
+</script>
+
 </body>
 </html>

@@ -106,7 +106,7 @@
 					<h1>Enjoy Your Luxury Experience</h1>
 					<p class="para">Our hotel signifies warmth and friendliness, simplicity with style, convenience and affordability for all executives and travelers.<br><br>
 					We, Quest Inn Beach Resort situated at Dadanpatrabarh, Mandarmani, WEST BENGAL,  provide you with a luxurious experience beyond all expectations. </p>
-					<a href="" class="aboutBtn">know more</a>
+					<a href="" class="btn book_btn"><p>know more</p></a>
 				</div>
 			</div>
 			<div class="col-lg-6 col-sm-12 abotGallery">
@@ -742,7 +742,7 @@
 
 
  <!-- Swiper JS -->
- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+ 	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
  <!-- Initialize Swiper -->
@@ -769,6 +769,20 @@
 			nextEl: ".swiper-button-next",
 			prevEl: ".swiper-button-prev",
 		},
+		breakpoints:{
+			1024:{
+				slidesPerView: 3,
+				spaceBetween: 30,
+			},
+			768:{
+				slidesPerView: 2,
+				spaceBetween: 20,
+			},
+			425:{
+				slidesPerView: 1,
+				spaceBetween: 10,
+			},
+		}
 		});
     </script>
 	<script>

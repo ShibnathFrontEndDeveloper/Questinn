@@ -20,6 +20,27 @@
 <body>
 
 <?php require('inc/header.php'); ?>
+<section class="home_carousel food_home">
+	<div class="swiper home_swiper">
+      <div class="swiper-wrapper">
+			<div class="swiper-slide home_slide" style="background:url(images/sand-coconut-sunrise-hotel-swimming.jpg);">
+				<div class="overlay"></div>
+			</div>
+			<div class="swiper-slide home_slide" style="background:url(images/rooms/IMG_39782.png);">
+			<div class="overlay"></div>
+
+			</div>
+			<div class="swiper-slide home_slide" style="background:url(images/rooms/IMG_65019.png);">
+			<div class="overlay"></div>
+
+			</div>
+			
+		</div>
+	</div>
+	<div class="food_bg_text">
+		<h1>about</h1>
+  </div>
+</section>
 
 <div class="my-5 px-4">
   <h2 class="fw-bold h-font text-center">ABOUT US</h2>
@@ -123,12 +144,23 @@
 </div>
 
 <?php require('inc/footer.php'); ?>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
 
  <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".home_swiper", {
+            spaceBetween: 30,
+            effect: "fade",
+            loop: true,
+            autoplay: {
+              delay: 10000,
+              disableOnInteraction: false,
+            }
+          });
+    </script>
     <script>
       var swiper = new Swiper(".mySwiper", {
         spaceBetween: 40,

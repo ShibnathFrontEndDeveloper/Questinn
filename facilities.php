@@ -10,18 +10,33 @@
 />
 <link rel="stylesheet" type="text/css" href="css/common.css">
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-<style>
-  .pop:hover{
-    border-top-color: var(--teal) !important;
-    transform: scale(1.03);
-    transition: all 0.3s;
-  }
-</style>
+
 
 </head>
 <body>
 
 <?php require('inc/header.php'); ?>
+<section class="home_carousel food_home">
+	<div class="swiper home_swiper">
+      <div class="swiper-wrapper">
+			<div class="swiper-slide home_slide" style="background:url(images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg);">
+				<div class="overlay"></div>
+			</div>
+			<div class="swiper-slide home_slide" style="background:url(images/rooms/IMG_39782.png);">
+			<div class="overlay"></div>
+
+			</div>
+			<div class="swiper-slide home_slide" style="background:url(images/rooms/IMG_65019.png);">
+			<div class="overlay"></div>
+
+			</div>
+			
+		</div>
+	</div>
+	<div class="food_bg_text">
+		<h1>Facilities</h1>
+  </div>
+</section>
 
 <div class="my-5 px-4">
   <h2 class="fw-bold h-font text-center">OUR FACILITIES</h2>
@@ -113,6 +128,18 @@
 </div>
 
 <?php require('inc/footer.php'); ?>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script>
+  var swiper = new Swiper(".home_swiper", {
+        spaceBetween: 30,
+        effect: "fade",
+        loop: true,
+        autoplay: {
+        	delay: 10000,
+        	disableOnInteraction: false,
+        }
+      });
+</script>
 </body>
 </html>
