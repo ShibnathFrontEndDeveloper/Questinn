@@ -850,3 +850,18 @@
 			margin-top: 8rem !important ;
 		}
 	}
+
+	/* breakfast */
+	.breakfast_box{
+		display: none;
+	}
+	.noContent {
+		color: #fff !important;
+		background-color: #3d47ff !important;
+		pointer-events: none;
+		font-size: .7rem;
+		line-height: 1.8rem;
+		text-transform: uppercase;
+	  }
+
+	

@@ -133,14 +133,16 @@
       </div>
       </div>
     </div>
-
+      <div class="view_btn_box d-flex justify-content-end">
+        <a href="breakfast.php" class="text-right btn book_btn"> <p> view more</p></a>
+      </div>
   </div>
 
   <!-- Lunch -->
 
   <div class="container">
     <h1 class="mt-5">lunch</h1>
-    <div class="swiper food_swiper">
+    <div class="swiper food_swiper1">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="food_box">
@@ -230,6 +232,9 @@
       </div>
       </div>
     </div>
+    <div class="view_btn_box d-flex justify-content-end">
+        <a href="lunch.php" class="text-right btn book_btn"> <p> view more</p></a>
+      </div>
 
   </div>
 
@@ -237,7 +242,7 @@
 
   <div class="container">
     <h1 class="mt-5">dinner</h1>
-    <div class="swiper food_swiper">
+    <div class="swiper food_swiper2">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="food_box">
@@ -327,15 +332,110 @@
       </div>
       </div>
     </div>
+    <div class="view_btn_box d-flex justify-content-end">
+        <a href="dinner.php" class="text-right btn book_btn"> <p> view more</p></a>
+      </div>
+  </div>
 
+  <!-- Snacks -->
+
+  <div class="container">
+    <h1 class="mt-5">snacks</h1>
+    <div class="swiper food_swiper3">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="food_box">
+            <img src="images/Foods/sandwich-cup-coffee-table.jpg" alt="" class="img-fluid">
+            <h5>Jelly bread with orange juice</h5>
+            <span><i class="bi bi-currency-rupee"></i>80</span>
+            <form action="" class="d-flex align-items-center">
+              <input type="text" value="1" class="counter_one form-control"/>
+              <button type="button" class="increment_btn"><i class="bi bi-plus"></i></button>
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="food_box">
+            <img src="images/Foods/breakfast-consists-bread-boiled-eggs-black-grape-salad-dressing-tomatoes-sliced-onions.jpg" alt="" class="img-fluid">
+            <h5>Jelly bread with orange juice</h5>
+            <span><i class="bi bi-currency-rupee"></i>80</span>
+            <form action="" class="d-flex align-items-center">
+              <input type="text" value="1" class="counter_two form-control"/>
+              <button type="button" class="incrementOne_btn"><i class="bi bi-plus"></i></button>              
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+            </form>
+            
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="food_box">
+            <img src="images/Foods/plate-food-with-glass-orange-juice-plate-food-with-sandwich.jpg" alt="" class="img-fluid">
+            <h5>Jelly bread with orange juice</h5>
+            <span><i class="bi bi-currency-rupee"></i>80</span>
+            <form action="" class="d-flex align-items-center">
+              <input type="text" value="1" class="counter_three form-control"/>
+              <button type="button" class="incrementTwo_btn"><i class="bi bi-plus"></i></button>
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+            </form>
+            
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="food_box">
+            <img src="images/Foods/coffee-beverage-sandwich.jpg" alt="" class="img-fluid">
+            <h5>Jelly bread with orange juice</h5>
+            <span><i class="bi bi-currency-rupee"></i>80</span>
+            <form action="" class="d-flex align-items-center">
+              <input type="text" value="1" class="counter_four form-control"/>
+              <button type="button" class="incrementThree_btn"><i class="bi bi-plus"></i></button>
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="swiper-slide">
+        <div class="food_box">
+          <img src="images/Foods/omlet_bred.jpg" alt="" class="img-fluid">
+          <h5>Jelly bread with orange juice</h5>
+          <span><i class="bi bi-currency-rupee"></i>80</span>
+          <form action="" class="d-flex align-items-center">
+            <input type="text" value="1" class="counter_five form-control"/>
+            <button type="button" class="incrementFour_btn"><i class="bi bi-plus"></i></button>
+              <div class="order_box">
+                <button type="submit"class="order_btn">order now</button>
+              </div>
+          </form>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="food_box">
+          <img src="images/Foods/bred_juice.jpg" alt="" class="img-fluid">
+          <h5>Jelly bread with orange juice</h5>
+          <span><i class="bi bi-currency-rupee"></i>80</span>
+          <form action="" class="d-flex align-items-center">
+            <input type="text" value="1" class="counter_six form-control"/>
+            <button type="button" class="incrementFive_btn"><i class="bi bi-plus"></i></button>
+            <div class="order_box">
+              <button type="submit"class="order_btn">order now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="view_btn_box d-flex justify-content-end">
+        <a href="snacks.php" class="text-right btn book_btn"> <p> view more</p></a>
+      </div>
   </div>
 </section>
-
-
-
-
-
-
 
 <?php require('inc/footer.php'); ?>
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
@@ -354,27 +454,128 @@
       var swiper = new Swiper(".food_swiper", {
       slidesPerView: 4,
       spaceBetween: 40,
+      autoplay:{
+        delay: 2500,
+        disableOnInteraction: false,
+      },
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
       },
       breakpoints: {
-        0: {
-          slidesPerView: 1,
-          spaceBetween: 10,
-        },
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 30,
-        },
-        1024: {
-          slidesPerView: 4,
-          spaceBetween: 40,
-        },
+        
+       425:{
+        slidesPerView: 1,
+      spaceBetween: 10,
+       },
+       768:{
+        slidesPerView: 2,
+      spaceBetween: 20,
+       },
+       1024:{
+        slidesPerView: 3,
+      spaceBetween: 30,
+       },
+       1440:{
+        slidesPerView: 4,
+      spaceBetween: 40,
+       }
+      },
+    });
+
+    var swiper = new Swiper(".food_swiper1", {
+      slidesPerView: 4,
+      spaceBetween: 40,
+      autoplay:{
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        
+       425:{
+        slidesPerView: 1,
+      spaceBetween: 10,
+       },
+       768:{
+        slidesPerView: 2,
+      spaceBetween: 20,
+       },
+       1024:{
+        slidesPerView: 3,
+      spaceBetween: 30,
+       },
+       1440:{
+        slidesPerView: 4,
+      spaceBetween: 40,
+       }
+      },
+    });
+
+    var swiper = new Swiper(".food_swiper2", {
+      slidesPerView: 4,
+      spaceBetween: 40,
+      autoplay:{
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        
+       425:{
+        slidesPerView: 1,
+      spaceBetween: 10,
+       },
+       768:{
+        slidesPerView: 2,
+      spaceBetween: 20,
+       },
+       1024:{
+        slidesPerView: 3,
+      spaceBetween: 30,
+       },
+       1440:{
+        slidesPerView: 4,
+      spaceBetween: 40,
+       }
+      },
+    });
+
+    var swiper = new Swiper(".food_swiper3", {
+      slidesPerView: 4,
+      spaceBetween: 40,
+      autoplay:{
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        
+       425:{
+        slidesPerView: 1,
+      spaceBetween: 10,
+       },
+       768:{
+        slidesPerView: 2,
+      spaceBetween: 20,
+       },
+       1024:{
+        slidesPerView: 3,
+      spaceBetween: 30,
+       },
+       1440:{
+        slidesPerView: 4,
+      spaceBetween: 40,
+       }
       },
     });
 
