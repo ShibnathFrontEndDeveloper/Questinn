@@ -43,6 +43,18 @@
 <section class="food" id="food_sec">
   <div class="container">
     <h1>breakfast</h1>
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex justify-content-end">
+          <div class="d-flex food_search">
+            <form action="" class="d-flex">
+            <input type="text" class="form-control">
+            <button class="btn food_btn">Search Food</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="swiper food_swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">

@@ -40,15 +40,66 @@
         </li>
         
       </ul>
-      <div class="d-flex justify-content-end log_btn_box" role="search">
-        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#loginModel">Login	</button>
-        <button type="button" class="btn mx-3" data-bs-toggle="modal" data-bs-target="#registerModel">Register	</button>
-      </div>
-    </div>
-  </div>
-</nav>
+      <div class="d-flex justify-content-end" role="search">
+        <a href="login.php" class="btn book_btn"><p>Login</p></a>
+        <a href="signup.php" class="btn book_btn ms-3"><p>Signup</p></a>
 
-<div class="modal fade" id="loginModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      </div>
+	  <div class="cart_box position-relative">
+		<i class="bi bi-basket-fill" data-bs-target="#cart_box" data-bs-toggle="offcanvas"></i>
+		<span class="position-absolute top-10 start-65 translate-middle badge rounded-pill bg-primary">
+			0
+		</span>
+	</div>
+    </div>
+	
+  </div>
+  
+</nav>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="cart_box" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Cart</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body cart_detail_box">
+	<div class="row align-items-center border-bottom">
+		<div class="col-lg-4 col-sm-12 food_detailImg_box">
+			<div class="food_box food_cart_box">
+				<img src="images/Foods/sandwich-cup-coffee-table.jpg" alt="" class="img-fluid">
+			</div>
+		</div>
+		<div class="col-lg-8 roomDetails_textInfo">
+			<div class="description_room">
+				<h5 class="cart_product_heading">JELLY BREAD WITH ORANGE JUICE</h5>
+			</div>
+			<div class="facility_box add_box">
+				<h5><span class="discount_price"><i class="bi bi-currency-rupee"></i>2500</span> <i class="bi bi-currency-rupee"></i>2000</h5>
+				<form action="" class="d-flex align-items-center counter_box mb-3">
+					<input type="text" value="1" class="counter_one form-control"/>
+					<button type="button" class="increment_btn"><i class="bi bi-plus"></i></button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="row mt-2">
+		<div class="col-8">
+			<h5>Total</h5>
+		</div>
+		<div class="col-4">
+			<h5><i class="bi bi-currency-rupee"></i>2000</h5>
+		</div>
+	</div>
+	<div class="row border-top">
+		<div class="col-12 text-center mt-2">
+			<a href="" class="btn book_btn"><p>Place Order</p></a>
+		</div>
+	</div>
+
+  </div>
+</div>
+
+
+<!-- <div class="modal fade" id="loginModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
     	<form>
@@ -80,9 +131,9 @@
       
     </div>
   </div>
-</div>
+</div> -->
 
-<div class="modal fade" id="registerModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="registerModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
     	
@@ -144,6 +195,6 @@
       
     </div>
   </div>
-</div>
+</div> -->
 	
 </div>

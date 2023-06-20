@@ -135,28 +135,28 @@
  <div class="overlay"></div>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3 countText">
+			<div class="col-3 countText">
 				<i class="bi bi-universal-access"></i>
 				<div class="counter_box">
 					<h3><span id="Projects">0</span>+</h3>
 				</div>
 				<p>Booking Month</p>
 			</div>
-			<div class="col-lg-3 countText">
+			<div class="col-3 countText">
 				<i class="bi bi-people-fill"></i>
 				<div class="counter_box">
 					<h3><span id="Clients">0</span>+</h3>
 				</div>
 					<p>Daily Visitors</p>
 			</div>
-			<div class="col-lg-3 countText">
+			<div class="col-3 countText">
 				<i class="bi bi-emoji-smile"></i>
 				<div class="counter_box">
 					<h3><span id="Partners">0</span>%</h3>
 				</div>
 				<p>Positive Feedback</p>
 			</div>
-			<div class="col-lg-3 countText">
+			<div class="col-3 countText">
 				<i class="bi bi-award-fill"></i>
 				<div class="counter_box">
 					<h3><span id="Award">0</span>+</h3>
@@ -713,22 +713,22 @@
 			</div>
 			<div class="col-lg-8">
 				<div class="row g-5">
-					<div class="col-lg-4">
+					<div class="col-4">
 						<img src="images/Clients/clnt-1.jpg" alt="" class="client_imgs">
 					</div>
-					<div class="col-lg-4">
+					<div class="col-4">
 						<img src="images/Clients/clnt-2.jpg" alt="" class="client_imgs">
 					</div>
-					<div class="col-lg-4">
+					<div class="col-4">
 						<img src="images/Clients/clnt-3.jpg" alt="" class="client_imgs">
 					</div>
-					<div class="col-lg-4">
+					<div class="col-4">
 						<img src="images/Clients/clnt-4.jpg" alt="" class="client_imgs">
 					</div>
-					<div class="col-lg-4">
+					<div class="col-4">
 						<img src="images/Clients/clnt-5.jpg" alt="" class="client_imgs">
 					</div>
-					<div class="col-lg-4">
+					<div class="col-4">
 						<img src="images/Clients/clnt-6.jpg" alt="" class="client_imgs">
 					</div>
 				</div>
