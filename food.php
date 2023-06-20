@@ -62,7 +62,7 @@
             <img src="images/Foods/sandwich-cup-coffee-table.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="" class="d-flex align-items-center">
+            <form action="food_details.php" class="d-flex align-items-center">
               <input type="text" value="1" class="counter_one form-control"/>
               <button type="button" class="increment_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
@@ -76,7 +76,7 @@
             <img src="images/Foods/breakfast-consists-bread-boiled-eggs-black-grape-salad-dressing-tomatoes-sliced-onions.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="" class="d-flex align-items-center">
+            <form action="food_details.php" class="d-flex align-items-center">
               <input type="text" value="1" class="counter_two form-control"/>
               <button type="button" class="incrementOne_btn"><i class="bi bi-plus"></i></button>              
               <div class="order_box">
@@ -91,7 +91,7 @@
             <img src="images/Foods/plate-food-with-glass-orange-juice-plate-food-with-sandwich.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="" class="d-flex align-items-center">
+            <form action="food_details.php" class="d-flex align-items-center">
               <input type="text" value="1" class="counter_three form-control"/>
               <button type="button" class="incrementTwo_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
@@ -106,7 +106,7 @@
             <img src="images/Foods/coffee-beverage-sandwich.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="" class="d-flex align-items-center">
+            <form action="food_details.php" class="d-flex align-items-center">
               <input type="text" value="1" class="counter_four form-control"/>
               <button type="button" class="incrementThree_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
@@ -120,7 +120,7 @@
           <img src="images/Foods/omlet_bred.jpg" alt="" class="img-fluid">
           <h5>Jelly bread with orange juice</h5>
           <span><i class="bi bi-currency-rupee"></i>80</span>
-          <form action="" class="d-flex align-items-center">
+          <form action="food_details.php" class="d-flex align-items-center">
             <input type="text" value="1" class="counter_five form-control"/>
             <button type="button" class="incrementFour_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
@@ -134,7 +134,7 @@
           <img src="images/Foods/bred_juice.jpg" alt="" class="img-fluid">
           <h5>Jelly bread with orange juice</h5>
           <span><i class="bi bi-currency-rupee"></i>80</span>
-          <form action="" class="d-flex align-items-center">
+          <form action="food_details.php" class="d-flex align-items-center">
             <input type="text" value="1" class="counter_six form-control"/>
             <button type="button" class="incrementFive_btn"><i class="bi bi-plus"></i></button>
             <div class="order_box">
@@ -161,7 +161,7 @@
             <img src="images/Foods/sandwich-cup-coffee-table.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="" class="d-flex align-items-center">
+            <form action="food_details.php" class="d-flex align-items-center">
               <input type="text" value="1" class="counter_one form-control"/>
               <button type="button" class="increment_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
@@ -175,7 +175,7 @@
             <img src="images/Foods/breakfast-consists-bread-boiled-eggs-black-grape-salad-dressing-tomatoes-sliced-onions.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="" class="d-flex align-items-center">
+            <form action="food_details.php" class="d-flex align-items-center">
               <input type="text" value="1" class="counter_two form-control"/>
               <button type="button" class="incrementOne_btn"><i class="bi bi-plus"></i></button>              
               <div class="order_box">
@@ -190,7 +190,7 @@
             <img src="images/Foods/plate-food-with-glass-orange-juice-plate-food-with-sandwich.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="" class="d-flex align-items-center">
+            <form action="food_details.php" class="d-flex align-items-center">
               <input type="text" value="1" class="counter_three form-control"/>
               <button type="button" class="incrementTwo_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
@@ -205,7 +205,7 @@
             <img src="images/Foods/coffee-beverage-sandwich.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="" class="d-flex align-items-center">
+            <form action="food_details.php" class="d-flex align-items-center">
               <input type="text" value="1" class="counter_four form-control"/>
               <button type="button" class="incrementThree_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
@@ -219,7 +219,7 @@
           <img src="images/Foods/omlet_bred.jpg" alt="" class="img-fluid">
           <h5>Jelly bread with orange juice</h5>
           <span><i class="bi bi-currency-rupee"></i>80</span>
-          <form action="" class="d-flex align-items-center">
+          <form action="food_details.php" class="d-flex align-items-center">
             <input type="text" value="1" class="counter_five form-control"/>
             <button type="button" class="incrementFour_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
@@ -233,7 +233,7 @@
           <img src="images/Foods/bred_juice.jpg" alt="" class="img-fluid">
           <h5>Jelly bread with orange juice</h5>
           <span><i class="bi bi-currency-rupee"></i>80</span>
-          <form action="" class="d-flex align-items-center">
+          <form action="food_details.php" class="d-flex align-items-center">
             <input type="text" value="1" class="counter_six form-control"/>
             <button type="button" class="incrementFive_btn"><i class="bi bi-plus"></i></button>
             <div class="order_box">
@@ -261,7 +261,7 @@
             <img src="images/Foods/sandwich-cup-coffee-table.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="" class="d-flex align-items-center">
+            <form action="food_details.php" class="d-flex align-items-center">
               <input type="text" value="1" class="counter_one form-control"/>
               <button type="button" class="increment_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
@@ -275,7 +275,7 @@
             <img src="images/Foods/breakfast-consists-bread-boiled-eggs-black-grape-salad-dressing-tomatoes-sliced-onions.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="" class="d-flex align-items-center">
+            <form action="food_details.php" class="d-flex align-items-center">
               <input type="text" value="1" class="counter_two form-control"/>
               <button type="button" class="incrementOne_btn"><i class="bi bi-plus"></i></button>              
               <div class="order_box">
@@ -290,7 +290,7 @@
             <img src="images/Foods/plate-food-with-glass-orange-juice-plate-food-with-sandwich.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="" class="d-flex align-items-center">
+            <form action="food_details.php" class="d-flex align-items-center">
               <input type="text" value="1" class="counter_three form-control"/>
               <button type="button" class="incrementTwo_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
@@ -305,7 +305,7 @@
             <img src="images/Foods/coffee-beverage-sandwich.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="" class="d-flex align-items-center">
+            <form action="food_details.php" class="d-flex align-items-center">
               <input type="text" value="1" class="counter_four form-control"/>
               <button type="button" class="incrementThree_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
@@ -319,7 +319,7 @@
           <img src="images/Foods/omlet_bred.jpg" alt="" class="img-fluid">
           <h5>Jelly bread with orange juice</h5>
           <span><i class="bi bi-currency-rupee"></i>80</span>
-          <form action="" class="d-flex align-items-center">
+          <form action="food_details.php" class="d-flex align-items-center">
             <input type="text" value="1" class="counter_five form-control"/>
             <button type="button" class="incrementFour_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
@@ -333,7 +333,7 @@
           <img src="images/Foods/bred_juice.jpg" alt="" class="img-fluid">
           <h5>Jelly bread with orange juice</h5>
           <span><i class="bi bi-currency-rupee"></i>80</span>
-          <form action="" class="d-flex align-items-center">
+          <form action="food_details.php" class="d-flex align-items-center">
             <input type="text" value="1" class="counter_six form-control"/>
             <button type="button" class="incrementFive_btn"><i class="bi bi-plus"></i></button>
             <div class="order_box">
@@ -360,7 +360,7 @@
             <img src="images/Foods/sandwich-cup-coffee-table.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="" class="d-flex align-items-center">
+            <form action="food_details.php" class="d-flex align-items-center">
               <input type="text" value="1" class="counter_one form-control"/>
               <button type="button" class="increment_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
@@ -374,7 +374,7 @@
             <img src="images/Foods/breakfast-consists-bread-boiled-eggs-black-grape-salad-dressing-tomatoes-sliced-onions.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="" class="d-flex align-items-center">
+            <form action="food_details.php" class="d-flex align-items-center">
               <input type="text" value="1" class="counter_two form-control"/>
               <button type="button" class="incrementOne_btn"><i class="bi bi-plus"></i></button>              
               <div class="order_box">
@@ -389,7 +389,7 @@
             <img src="images/Foods/plate-food-with-glass-orange-juice-plate-food-with-sandwich.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="" class="d-flex align-items-center">
+            <form action="food_details.php" class="d-flex align-items-center">
               <input type="text" value="1" class="counter_three form-control"/>
               <button type="button" class="incrementTwo_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
@@ -404,7 +404,7 @@
             <img src="images/Foods/coffee-beverage-sandwich.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="" class="d-flex align-items-center">
+            <form action="food_details.php" class="d-flex align-items-center">
               <input type="text" value="1" class="counter_four form-control"/>
               <button type="button" class="incrementThree_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
@@ -418,7 +418,7 @@
           <img src="images/Foods/omlet_bred.jpg" alt="" class="img-fluid">
           <h5>Jelly bread with orange juice</h5>
           <span><i class="bi bi-currency-rupee"></i>80</span>
-          <form action="" class="d-flex align-items-center">
+          <form action="food_details.php" class="d-flex align-items-center">
             <input type="text" value="1" class="counter_five form-control"/>
             <button type="button" class="incrementFour_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
@@ -432,7 +432,7 @@
           <img src="images/Foods/bred_juice.jpg" alt="" class="img-fluid">
           <h5>Jelly bread with orange juice</h5>
           <span><i class="bi bi-currency-rupee"></i>80</span>
-          <form action="" class="d-flex align-items-center">
+          <form action="food_details.php" class="d-flex align-items-center">
             <input type="text" value="1" class="counter_six form-control"/>
             <button type="button" class="incrementFive_btn"><i class="bi bi-plus"></i></button>
             <div class="order_box">

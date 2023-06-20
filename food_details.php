@@ -122,7 +122,7 @@
                             <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
+                                <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
                                 <div class="facility_box">
                                     <h5>facilities</h5>
                                     <div class="row">
@@ -166,7 +166,7 @@
                             <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
+                                <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
                                 <div class="facility_box">
                                     <h5>facilities</h5>
                                     <div class="row">
@@ -210,7 +210,7 @@
                             <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
+                                <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
                                 <div class="facility_box">
                                     <h5>facilities</h5>
                                     <div class="row">
@@ -254,7 +254,7 @@
                             <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
+                                <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
                                 <div class="facility_box">
                                     <h5>facilities</h5>
                                     <div class="row">
@@ -298,7 +298,7 @@
                             <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
+                                <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
                                 <div class="facility_box">
                                     <h5>facilities</h5>
                                     <div class="row">
@@ -342,7 +342,7 @@
                             <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
+                                <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
                                 <div class="facility_box">
                                     <h5>facilities</h5>
                                     <div class="row">
@@ -386,7 +386,7 @@
                             <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
+                                <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
                                 <div class="facility_box">
                                     <h5>facilities</h5>
                                     <div class="row">
@@ -430,7 +430,7 @@
                             <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
+                                <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
                                 <div class="facility_box">
                                     <h5>facilities</h5>
                                     <div class="row">
@@ -474,7 +474,7 @@
                             <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
+                                <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
                                 <div class="facility_box">
                                     <h5>facilities</h5>
                                     <div class="row">

@@ -955,7 +955,7 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		background: rgba(47, 224, 227, 0.244);
+		background: rgba(0,0,0,.5);
 		width: 100%;
 		height: 100%;
 	
@@ -972,12 +972,12 @@
 	}
 	.details_box{
 		padding: 1rem;
-		border: .1rem solid #424141;
+		border: .1rem solid #ffffff71;
 		width: 100%;
 		border-radius: .3rem;
 		margin-block: 3rem;
-		background: rgba(255, 255, 255, 0.5);
-		backdrop-filter: blur(6px);
+		background: rgba(255, 255, 255, 0.2);
+		backdrop-filter: blur(3px);
 	}
 .slide_detail_text_box .facility_box .facilityImgBox{
 	padding:.6rem;
@@ -989,6 +989,15 @@
 	font-size: 1.2rem;
 	font-weight: 700;
 	padding-top: .5rem;
+	color: #2FE0E3;
+}
+.slide_detail_text_box .rooms_para{
+	color: #fff;
+	font-size: 12px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 1px;
+
 }
 	@media (max-width:992px) and (min-width:768px) {
 		.roomDetails_textInfo{
