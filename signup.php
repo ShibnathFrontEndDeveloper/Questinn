@@ -53,14 +53,14 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-group mb-3">
-                        <label for="" class="form-label">Password</label>
-                        <input type="password" class="form-control" required placeholder="Password">
+                        <label for="" class="form-label">Mobol</label>
+                        <input type="tel" class="form-control" required pattern="[0-9]{5}-[0-9]{5}" placeholder="Mobile">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group mb-3">
-                        <label for="" class="form-label">Confirm Password</label>
-                        <input type="password" class="form-control" required placeholder="Password">
+                        <label for="" class="form-label">Address</label>
+                        <input type="text" class="form-control" required placeholder="Address">
                     </div>
                 </div>
                 <div class="col-md-6">
