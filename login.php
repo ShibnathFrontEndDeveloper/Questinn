@@ -18,7 +18,7 @@
 <div class="log_section" style="background:url(images/sand-coconut-sunrise-hotel-swimming.jpg)">
     <div class="logForm_box_main">
         <div class="row g-3 align-items-center">
-            <form action="" class="logSign_form">
+            <form action="cmDashboard.php" class="logSign_form">
                 <div class="logo_box">
                     <a href="index.php"><img src="images/questinn_logo_white.png" alt="" srcset="" class="img-fluid"></a>
                 </div>
@@ -43,7 +43,6 @@
             </form>
         </div>
     </div>
-
 </div>
 
 </body>

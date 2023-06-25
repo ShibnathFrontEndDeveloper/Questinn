@@ -189,6 +189,7 @@
 	.logSign_form .form-control{
 		background: transparent;
 		border-radius: 0;
+		color: #fff;
 	}
 	.logSign_form .form-control::placeholder{
 		color: #fff;

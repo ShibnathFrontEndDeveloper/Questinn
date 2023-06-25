@@ -196,6 +196,9 @@
     .cmd_dropdown .dropdown-item .badge{
       float:right;
     } 
+    .card_width{
+        width:338px;
+    }
     @media screen and (min-width: 768px){
         body{
         margin: calc(var(--header-height) + 1rem) 0 0 0;
@@ -250,11 +253,11 @@
                 <i class='bx bx-menu' id="header-toggle"></i> 
             </div>
             <div>
-                 <a href="index.php" class="nav_logo"> 
+                 <a href="#" class="nav_logo"> 
                     <img src="images/questinn_logo_white.png" alt="" width="150px"> 
                 </a>
                 <div class="nav_list">
-                     <a href="cmDashboard.php" class="nav_link active">
+                     <a href="cmDashboard.php" class="nav_link">
                      <i class='bx bxs-institution nav_icon'></i>
                          <span class="nav_name">Room Details</span> 
                     </a>
@@ -262,7 +265,7 @@
                         <i class='bx bxs-dish'></i> 
                          <span class="nav_name">Food Details</span> 
                     </a> 
-                    <a href="cmdEditFile.php" class="nav_link"> 
+                    <a href="cmdEditFile.php" class="nav_link active"> 
                         <i class='bx bx-folder nav_icon'></i>
                          <span class="nav_name">Edit Profiles</span> 
                     </a> 
@@ -271,48 +274,75 @@
         </nav>
     </div>
     <!--Container Main start-->
-    <!-- <div class="container"> -->
-      <h2 class="cmd_heading">You Room Details</h2>
-      <div class="table-responsive tbl_content">
-        <table class="table align-middle  table-hover">
-          <thead class="table-dark">
-            <tr>
-              <th scope="col">Image</th>
-              <th scope="col">Room No.</th>
-              <th scope="col">Room Name</th>
-              <th scope="col">Facilities</th>
-              <th scope="col">Price</th>
-              <th scope="col">Payment</th>
-              <th scope="col">Night Stay</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-            <td scope="col">
-              <img src="Images/rooms/IMG_65019.png" class="img-fluid cmd_img"/>
-            </td>
-              <td scope="col">001</td>
-              <td scope="col">Single Room</td>
-              <td scope="col">
-                <div class="dropdown cmd_dropdown">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Check
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">Ac   <span class="badge rounded-pill bg-warning text-dark">Yes</span></a></li>
-                    <li><a class="dropdown-item" href="#">Room Heater <span class="badge rounded-pill bg-warning text-dark">No</span></a></li>
-                    <li><a class="dropdown-item" href="#">Swimming Pool<span class="badge rounded-pill bg-warning text-dark">Yes</span></a></li>
-                  </ul>
-                </div>
-              </td>
-              <td scope="col"><i class='bx bx-rupee'></i> 1500.00</td>
-              <td scope="col">Due</td>
-              <td scope="col">1 Night</td>
-            </tr>
-          </tbody>
-        </table>
+    <div class="container">
+      <div class="logForm_box_main">
+          <form action="" class="logSign_form">
+              <div class="logo_box">
+                  <a href="index.php"><img src="images/questinn_logo_white.png" alt="" srcset="" class="img-fluid"></a>
+              </div>
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group mb-3">
+                          <label for="" class="form-label">Name</label>
+                          <input type="text" class="form-control" required="" placeholder="Name">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group mb-3">
+                          <label for="" class="form-label">Email</label>
+                          <input type="email" class="form-control" required="" placeholder="Your Email">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group mb-3">
+                          <label for="" class="form-label">ID</label>
+                          <select name="" id="" class="form-select">
+                              <option value="1" select="">Pan Card</option>
+                              <option value="1">Aadhaar Card</option>
+                              <option value="1">Voter Card</option>
+                              <option value="1">Driving Licence</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group mb-3">
+                          <label for="" class="form-label">ID Photo</label>
+                          <input type="file" class="form-control">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group mb-3">
+                          <label for="" class="form-label">Mobol</label>
+                          <input type="tel" class="form-control" required="" pattern="[0-9]{5}-[0-9]{5}" placeholder="Mobile">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group mb-3">
+                          <label for="" class="form-label">Address</label>
+                          <input type="text" class="form-control" required="" placeholder="Address">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group mb-3">
+                          <label for="" class="form-label">Password</label>
+                          <input type="password" class="form-control" required="" placeholder="Password">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group mb-3">
+                          <label for="" class="form-label">Confirm Password</label>
+                          <input type="password" class="form-control" required="" placeholder="Password">
+                      </div>
+                  </div>
+              </div>
+              <div class="form-group mb-3">
+                  <button type="submit" class="btn ">Update</button>
+              </div>
+
+          </form>
       </div>
     </div>
+    
     <!--Container Main end-->
 
 
