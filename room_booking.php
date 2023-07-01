@@ -170,6 +170,17 @@
                                 </select>
                             </div>
                         </div>
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label for="" class="form-label">No. of Rooms</label>
+                                <select name="" id="" class="form-select">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                        </div>
                         <div class="form-group mb-3">
                             <button type="submit" class="btn ">Send</button>
                         </div>
