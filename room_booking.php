@@ -70,7 +70,7 @@
 		</div>
 	</div>
 	<div class="food_bg_text">
-		<h1>room details</h1>
+		<h1>room booking</h1>
   </div>
 </section>
 <section class="details_rooms">
@@ -188,7 +188,7 @@
                             <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-12 mt-3">
-                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                            <a href="" class="btn book_btn"> <p>book now</p></a>
                         </div>
 
                     </div>
@@ -237,7 +237,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
@@ -281,7 +281,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
@@ -325,7 +325,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
@@ -369,7 +369,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
@@ -413,7 +413,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
@@ -457,7 +457,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
@@ -501,7 +501,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
@@ -545,7 +545,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
@@ -589,7 +589,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
