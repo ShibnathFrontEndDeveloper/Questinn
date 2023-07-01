@@ -289,7 +289,7 @@
           <tbody>
             <tr>
             <td scope="col">
-              <img src="Images/rooms/IMG_65019.png" class="img-fluid cmd_img"/>
+              <img src="images/rooms/IMG_65019.png" class="img-fluid cmd_img"/>
             </td>
               <td scope="col">001</td>
               <td scope="col">Single Room</td>

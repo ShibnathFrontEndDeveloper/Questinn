@@ -80,28 +80,28 @@
                 <div class="swiper room_swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="Images/rooms/IMG_11892.png" />
+                            <img src="images/rooms/IMG_11892.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/rooms/IMG_39782.png" />
+                            <img src="images/rooms/IMG_39782.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/rooms/IMG_42663.png" />
+                            <img src="images/rooms/IMG_42663.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/rooms/IMG_65019.png" />
+                            <img src="images/rooms/IMG_65019.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/rooms/IMG_11892.png" />
+                            <img src="images/rooms/IMG_11892.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/rooms/IMG_39782.png" />
+                            <img src="images/rooms/IMG_39782.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/rooms/IMG_42663.png" />
+                            <img src="images/rooms/IMG_42663.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/rooms/IMG_65019.png" />
+                            <img src="images/rooms/IMG_65019.png" />
                         </div>
                     </div>
                     <div class="swiper-button-next"></div>
@@ -110,28 +110,28 @@
                 <div thumbsSlider="" class="swiper room_swiper2">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="Images/rooms/IMG_11892.png" />
+                            <img src="images/rooms/IMG_11892.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/rooms/IMG_39782.png" />
+                            <img src="images/rooms/IMG_39782.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/rooms/IMG_42663.png" />
+                            <img src="images/rooms/IMG_42663.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/rooms/IMG_65019.png" />
+                            <img src="images/rooms/IMG_65019.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/rooms/IMG_11892.png" />
+                            <img src="images/rooms/IMG_11892.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/rooms/IMG_39782.png" />
+                            <img src="images/rooms/IMG_39782.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/rooms/IMG_42663.png" />
+                            <img src="images/rooms/IMG_42663.png" />
                         </div>
                         <div class="swiper-slide">
-                            <img src="Images/rooms/IMG_65019.png" />
+                            <img src="images/rooms/IMG_65019.png" />
                         </div>
                     </div>
                 </div>
@@ -146,49 +146,49 @@
                     <h5>facilities</h5>
                     <div class="row">
                         <div class="col-lg-4 facilityImgBox">
-                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-4 facilityImgBox">
-                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-4 facilityImgBox">
-                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-4 facilityImgBox">
-                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-4 facilityImgBox">
-                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-4 facilityImgBox">
-                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-4 facilityImgBox">
-                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-4 facilityImgBox">
-                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-4 facilityImgBox">
-                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-4 facilityImgBox">
-                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-4 facilityImgBox">
-                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-4 facilityImgBox">
-                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-4 facilityImgBox">
-                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-4 facilityImgBox">
-                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-12 mt-3">
-                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                            <a href="" class="btn book_btn"> <p>book now</p></a>
                         </div>
 
                     </div>
@@ -196,14 +196,14 @@
             </div>
         </div>
     </div>
-    <div class="resent_view" style="background:url(Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg)">
+    <div class="resent_view" style="background:url(images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg)">
        <div class="container">
             <div class="swiper details_swiper">
                 <h1 class="text-center">recently viewed</h1>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -211,25 +211,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -237,7 +237,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
@@ -247,7 +247,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -255,25 +255,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -281,7 +281,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
@@ -291,7 +291,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -299,25 +299,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -325,7 +325,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
@@ -335,7 +335,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -343,25 +343,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -369,7 +369,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
@@ -379,7 +379,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -387,25 +387,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -413,7 +413,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
@@ -423,7 +423,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -431,25 +431,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -457,7 +457,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
@@ -467,7 +467,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -475,25 +475,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -501,7 +501,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
@@ -511,7 +511,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -519,25 +519,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -545,7 +545,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>
@@ -555,7 +555,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -563,25 +563,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -589,7 +589,7 @@
                                         <i class="bi bi-currency-rupee"></i>1500
                                         </div>
                                         <div class="col-lg-12 mt-3">
-                                            <a href="room_booking.php" class="btn book_btn"> <p>book now</p></a>
+                                            <a href="" class="btn book_btn"> <p>book now</p></a>
                                         </div>
 
                                     </div>

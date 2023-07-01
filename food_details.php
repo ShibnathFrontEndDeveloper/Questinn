@@ -112,14 +112,14 @@
             </div>
         </div>
     </div>
-    <div class="resent_view" style="background:url(Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg)">
+    <div class="resent_view" style="background:url(images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg)">
        <div class="container">
             <div class="swiper details_swiper">
                 <h1 class="text-center">you might also like</h1>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -127,25 +127,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -163,7 +163,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -171,25 +171,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -207,7 +207,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -215,25 +215,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -251,7 +251,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -259,25 +259,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -295,7 +295,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -303,25 +303,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -339,7 +339,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -347,25 +347,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -383,7 +383,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -391,25 +391,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -427,7 +427,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -435,25 +435,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
@@ -471,7 +471,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="details_box">
-                            <img src="Images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
+                            <img src="images/patrick-robert-doyle-AH8zKXqFITA-unsplash.jpg" alt="">
                             <div class="slide_detail_text_box">
                                 <h4>hotel name</h4>
                                 <p class="rooms_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ullam tenetur, expedita iusto rem fugit.</p>
@@ -479,25 +479,25 @@
                                     <h5>facilities</h5>
                                     <div class="row">
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_27079.svg" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bellboy.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bellboy.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/bus.png" alt="" class="img-fluid">
+                                            <img src="images/Facilities/bus.png" alt="" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 facilityImgBox">
-                                            <img src="Images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
+                                            <img src="images/Facilities/IMG_41622.svg" alt="" class="img-fluid">
                                         </div>
                                         
                                         
