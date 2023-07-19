@@ -12,7 +12,7 @@
 
 </div>
 
-<nav class="navbar navbar-expand-lg px-lg-3 py-lg-2 shadow-sm sticky-top">
+<nav class="navbar navbar-expand-lg px-lg-3 py-lg-2 shadow-sm sticky-top" id="stop_nav">
   <div class="container">
     <a class="navbar-brand me-5 fw-bold fs-3 h-font" href="index.php"><img src="images/questinn_logo_white.png" alt="" class="brand"></a>
     <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -196,5 +196,18 @@
     </div>
   </div>
 </div> -->
-	
 </div>
+
+<script>
+   const header = document.querySelector('#stop_nav')
+   const setTop = header.offsetTop;
+   console.log(setTop);
+   window.addEventListener('scroll', ()=>{
+	if(window.pageYOffset>setTop){
+		header.classList.add('bg_navBar');
+	}else{
+		header.classList.remove('bg_navBar');
+	}
+   });
+    
+</script>

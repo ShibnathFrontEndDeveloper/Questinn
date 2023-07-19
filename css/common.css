@@ -111,10 +111,28 @@
 		color: aqua;
 	}
 	.navbar{
-		background: #000;
+		background: #000000;
+	}
+	.bg_navBar{
+		background: #1f244ac2;
+		transition: .8s ease-in-out;
+		backdrop-filter: blur(10px);
 	}
 	.navbar-brand .brand{
-		width: 150px;
+		width: 120px;
+		animation: bouncsy 1s linear;
+	}
+	
+	@keyframes bouncsy {
+		0%{
+			transform: translate(0, 0) rotate(0);
+		}
+		50%{
+			transform: translate(15px) rotate(15deg);
+		}
+		100%{
+			transform: translate(0, 0) rotate(0);
+		}
 	}
 	
 	.navbar-expand-lg .navbar-nav{
@@ -685,11 +703,6 @@
 
 
 
-
-
-
-
-
 	/*//////////////////////////////////
 	Testimonial  //////////////////////////////////
 	*/
@@ -772,16 +785,10 @@
 	}
 
 
-
-
-
-
-
-
-
 	/*/////////////////////////////////////
 	Footer /////////////////////////////////////
 	*/
+
 	.footer_part{
 		background-position: center center;
 		background-size: cover !important;
@@ -1064,7 +1071,48 @@
 	  .booking_heading:nth-child(2){
 		color: red;
 	  }
-
+	 .payment_page{
+		padding: 50px 0;
+		background-image: url(../images/delvery_bg.png);
+		background-position: center right;
+		background-size: calc(100% - 50%);
+		background-repeat: no-repeat;
+	 }
+	 .payment_card{
+		background: transparent;
+		backdrop-filter: blur(6px);
+	 }
+	 .payment_card .card-header{
+		background: #e9e9e9;
+	 }
+	 .pymnt_img{
+		width: 30px;
+	 }
+	 .payment_caption{
+		margin-bottom: 0;
+		margin-left: 15px;
+		font-size: 15px;
+		font-weight: 600;
+	 }
+	 .payment_form .form-control{
+		padding: 8px;
+		width: 30%;
+		cursor: pointer;
+		
+	 }
+	 .payment_form .form-control .form-check-label{
+		cursor: pointer;
+	 }
+	 .payment_form .form-control input{
+		opacity: 0;
+	 }
+	 .paymnt_details_head .card-title{
+		font-size: 15px;
+		font-weight: 600;
+	 }
+	.bg-transparent{
+		background: #e9e9e9 !important;
+	 }
 
 	 
 

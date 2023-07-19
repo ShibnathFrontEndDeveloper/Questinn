@@ -106,7 +106,7 @@
                     <div class="card-body food_cart_body">
                         <p class="elig_para"><i class="bi bi-check-circle-fill"></i> Your order is eligible for FREE Delivery. Select this option at checkout. Details</p>
                         <h5 class="card-title">Subtotal (1 items):<i class="bi bi-currency-rupee"></i> 2000</h5>
-                        <a href="#" class="card-link btn book_btn"><p>Another link</p></a>
+                        <a href="order_details.php" class="card-link btn book_btn"><p>Place Order</p></a>
                     </div>
                 </div>
             </div>
