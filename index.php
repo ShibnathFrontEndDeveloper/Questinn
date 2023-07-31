@@ -106,7 +106,7 @@
 					<h1>Enjoy Your Luxury Experience</h1>
 					<p class="para">Our hotel signifies warmth and friendliness, simplicity with style, convenience and affordability for all executives and travelers.<br><br>
 					We, Quest Inn Beach Resort situated at Dadanpatrabarh, Mandarmani, WEST BENGAL,  provide you with a luxurious experience beyond all expectations. </p>
-					<a href="" class="btn book_btn"><p>know more</p></a>
+					<a href="about.php" class="btn book_btn"><p>know more</p></a>
 				</div>
 			</div>
 			<div class="col-lg-6 col-sm-12 abotGallery">
