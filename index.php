@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hotel Booking Website</title>
+	<title>Questinn The Beach Restaurant</title>
 	<!-- CSS only -->
 <?php require('inc/links.php'); ?>
 	<link
@@ -238,7 +238,7 @@
 							</span>
 						</div>
 						<div class="d-flex justify-content-center mb-2 bm_btn_box">
-							<a href="#" class="btn book_btn "><p> book now</p></a>
+							<a href="room_booking.php" class="btn book_btn "><p> book now</p></a>
 							
 						</div>
 					</div>
@@ -307,7 +307,7 @@
 							</span>
 						</div>
 						<div class="d-flex justify-content-center mb-2 bm_btn_box">
-							<a href="#" class="btn book_btn "><p> book now</p></a>
+							<a href="room_booking.php" class="btn book_btn "><p> book now</p></a>
 							
 						</div>
 					</div>
@@ -376,7 +376,7 @@
 							</span>
 						</div>
 						<div class="d-flex justify-content-center mb-2 bm_btn_box">
-							<a href="#" class="btn book_btn "><p> book now</p></a>
+							<a href="room_booking.php" class="btn book_btn "><p> book now</p></a>
 							
 						</div>
 					</div>

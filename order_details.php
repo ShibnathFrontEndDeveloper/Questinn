@@ -54,67 +54,69 @@
 <?php require('inc/header.php'); ?>
 <section class="payment_page">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8">
-                <div class="card mb-3 payment_card">
-                    <div class="card-header">
-                        <h4>Choose Pyament</h4>
+      <div class="row">
+          <div class="col-lg-6">
+            <div class="card cart_details_cart">
+                <div class="card-body p-0">
+                    <div class="card-header cart_header">
+                        <h5 class="card-title text-center pt-3 cart_details_heading">Cart totals</h5>
                     </div>
-                    <div class="card-body">
-                        <form action="" class="payment_form">
-                            <div class="form-check my-4">
-                                <label for="onlone" class="form-control">
-                                    <input class="form-check-input" type="radio" name="onlone" id="inlineRadio1" value="option1">
-                                    <label class="form-check-label d-flex align-items-center" for="inlineRadio1">
-                                        <img src="./images/payment1.png" alt="" class="pymnt_img">
-                                        <p class="payment_caption">Online Payment</p>
-                                    </label> 
-                                </label>
-                            </div>
-                            <div class="form-check my-4">
-                                <label for="onlone" class="form-control">
-                                    <input class="form-check-input" type="radio" name="onlone" id="inlineRadio2" value="option2">
-                                    <label class="form-check-label d-flex align-items-center" for="inlineRadio2">
-                                        <img src="./images/cashOnDelivery1.png" alt="" class="pymnt_img">
-                                        <p class="payment_caption">Cash On Delivery</p>
-                                    </label> 
-                                </label>
-                            </div>
-                        </form>
+                    
+                    <div class="d-flex justify-content-between align-items-center py-3 px-3">
+                        <span>Sub total</span>
+                        <span><i class="bi bi-currency-rupee"></i>150</span>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            
-        <div class="col-lg-3 col-md-4">
-                <div class="card mb-3">
-                    <div class="card-header bg-transparent">Price details</div>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-12 d-flex justify-content-between align-items-center paymnt_details_head">
-                                <h5 class="card-title">Price (1 item)</h5>
-                                <p>185.00</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 d-flex justify-content-between align-items-center paymnt_details_head">
-                                <h5 class="card-title">Delivery Charges</h5>
-                                <p>Free</p>
-                            </div>
-                        </div>
+                    <div class="d-flex justify-content-between align-items-center py-3 px-3">
+                        <span>Tax</span>
+                        <span><i class="bi bi-currency-rupee"></i>45</span>
                     </div>
-                    <div class="card-footer bg-transparent">
-                        <div class="row">
-                            <div class="col-12 d-flex justify-content-between align-items-center paymnt_details_head">
-                                <h5 class="card-title">Amount Payable</h5>
-                                <p>185.00</p>
-                            </div>
-                        </div>
+                    <div class="d-flex justify-content-between align-items-center py-3 px-3">
+                        <span>Shiping</span>
+                        <span><i class="bi bi-currency-rupee"></i>0</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center py-3 px-3 border">
+                        <span>Total</span>
+                        <span><i class="bi bi-currency-rupee"></i>150</span>
+                    </div>
+                    <div class="d-flex justify-content-between flex-column align-items-center py-3 px-3">
+                        <span class="total_price"><i class="bi bi-currency-rupee"></i>150</span>
+                        <a href="order_details.php" class="btn">Place Order Now</a>
                     </div>
                 </div>
             </div>
-        </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-6 mt-5">
+              <div class="card mb-3 payment_card">
+                  <div class="card-header">
+                      <h4>Choose Pyament</h4>
+                  </div>
+                  <div class="card-body">
+                      <form action="" class="payment_form">
+                          <div class="form-check my-4">
+                              <label for="onlone" class="form-control">
+                                  <input class="form-check-input" type="radio" name="onlone" id="inlineRadio1" value="option1">
+                                  <label class="form-check-label d-flex align-items-center" for="inlineRadio1">
+                                      <img src="./images/payment1.png" alt="" class="pymnt_img">
+                                      <p class="payment_caption">Online Payment</p>
+                                  </label> 
+                              </label>
+                          </div>
+                          <div class="form-check my-4">
+                              <label for="onlone" class="form-control">
+                                  <input class="form-check-input" type="radio" name="onlone" id="inlineRadio2" value="option2">
+                                  <label class="form-check-label d-flex align-items-center" for="inlineRadio2">
+                                      <img src="./images/cashOnDelivery1.png" alt="" class="pymnt_img">
+                                      <p class="payment_caption">Cash On Delivery</p>
+                                  </label> 
+                              </label>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
     </div>
 
 </section>
