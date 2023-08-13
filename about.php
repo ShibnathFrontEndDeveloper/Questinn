@@ -20,6 +20,7 @@
 <body>
 
 <?php require('inc/header.php'); ?>
+
 <section class="home_carousel food_home">
 	<div class="swiper home_swiper">
       <div class="swiper-wrapper">

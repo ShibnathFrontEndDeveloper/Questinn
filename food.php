@@ -14,6 +14,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 
+
 </head>
 <body>
 
@@ -49,12 +50,17 @@
           <div class="d-flex food_search">
             <form action="" class="d-flex">
             <input type="text" class="form-control">
-            <button class="btn food_btn">Search Food</button>
+            <button class="btn food_btn flex-end">
+              <i class="bi bi-search"></i>
+            </button>
             </form>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Breakfast -->
+
     <div class="swiper food_swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -62,13 +68,13 @@
             <img src="images/Foods/sandwich-cup-coffee-table.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="food_details.php" class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <input type="text" value="1" class="counter_one form-control"/>
               <button type="button" class="increment_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit" data-bs-target="#staticBackdrop" data-bs-toggle="modal" class="order_btn">order now</button>
               </div>
-            </form>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
@@ -76,13 +82,13 @@
             <img src="images/Foods/breakfast-consists-bread-boiled-eggs-black-grape-salad-dressing-tomatoes-sliced-onions.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="food_details.php" class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <input type="text" value="1" class="counter_two form-control"/>
               <button type="button" class="incrementOne_btn"><i class="bi bi-plus"></i></button>              
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit" data-bs-target="#staticBackdrop" data-bs-toggle="modal" class="order_btn">order now</button>
               </div>
-            </form>
+            </div>
             
           </div>
         </div>
@@ -91,13 +97,13 @@
             <img src="images/Foods/plate-food-with-glass-orange-juice-plate-food-with-sandwich.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="food_details.php" class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <input type="text" value="1" class="counter_three form-control"/>
               <button type="button" class="incrementTwo_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit" data-bs-target="#staticBackdrop" data-bs-toggle="modal" class="order_btn">order now</button>
               </div>
-            </form>
+            </div>
             
           </div>
         </div>
@@ -106,13 +112,13 @@
             <img src="images/Foods/coffee-beverage-sandwich.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="food_details.php" class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <input type="text" value="1" class="counter_four form-control"/>
               <button type="button" class="incrementThree_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit" data-bs-target="#staticBackdrop" data-bs-toggle="modal" class="order_btn">order now</button>
               </div>
-            </form>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
@@ -120,13 +126,13 @@
           <img src="images/Foods/omlet_bred.jpg" alt="" class="img-fluid">
           <h5>Jelly bread with orange juice</h5>
           <span><i class="bi bi-currency-rupee"></i>80</span>
-          <form action="food_details.php" class="d-flex align-items-center">
+          <div class="d-flex align-items-center">
             <input type="text" value="1" class="counter_five form-control"/>
             <button type="button" class="incrementFour_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit" data-bs-target="#staticBackdrop" data-bs-toggle="modal" class="order_btn">order now</button>
               </div>
-          </form>
+          </div>
         </div>
       </div>
       <div class="swiper-slide">
@@ -134,13 +140,13 @@
           <img src="images/Foods/bred_juice.jpg" alt="" class="img-fluid">
           <h5>Jelly bread with orange juice</h5>
           <span><i class="bi bi-currency-rupee"></i>80</span>
-          <form action="food_details.php" class="d-flex align-items-center">
+          <div class="d-flex align-items-center">
             <input type="text" value="1" class="counter_six form-control"/>
             <button type="button" class="incrementFive_btn"><i class="bi bi-plus"></i></button>
             <div class="order_box">
-              <button type="submit"class="order_btn">order now</button>
+              <button type="submit" data-bs-target="#staticBackdrop" data-bs-toggle="modal" class="order_btn">order now</button>
             </div>
-          </form>
+          </div>
         </div>
       </div>
       </div>
@@ -161,13 +167,13 @@
             <img src="images/Foods/sandwich-cup-coffee-table.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="food_details.php" class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <input type="text" value="1" class="counter_one form-control"/>
               <button type="button" class="increment_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit" data-bs-target="#staticBackdrop" data-bs-toggle="modal" class="order_btn">order now</button>
               </div>
-            </form>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
@@ -175,13 +181,13 @@
             <img src="images/Foods/breakfast-consists-bread-boiled-eggs-black-grape-salad-dressing-tomatoes-sliced-onions.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="food_details.php" class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <input type="text" value="1" class="counter_two form-control"/>
               <button type="button" class="incrementOne_btn"><i class="bi bi-plus"></i></button>              
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit" data-bs-target="#staticBackdrop" data-bs-toggle="modal" class="order_btn">order now</button>
               </div>
-            </form>
+            </div>
             
           </div>
         </div>
@@ -190,13 +196,13 @@
             <img src="images/Foods/plate-food-with-glass-orange-juice-plate-food-with-sandwich.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="food_details.php" class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <input type="text" value="1" class="counter_three form-control"/>
               <button type="button" class="incrementTwo_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit" data-bs-target="#staticBackdrop" data-bs-toggle="modal" class="order_btn">order now</button>
               </div>
-            </form>
+            </div>
             
           </div>
         </div>
@@ -205,13 +211,13 @@
             <img src="images/Foods/coffee-beverage-sandwich.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="food_details.php" class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <input type="text" value="1" class="counter_four form-control"/>
               <button type="button" class="incrementThree_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit" data-bs-target="#staticBackdrop" data-bs-toggle="modal" class="order_btn">order now</button>
               </div>
-            </form>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
@@ -219,13 +225,13 @@
           <img src="images/Foods/omlet_bred.jpg" alt="" class="img-fluid">
           <h5>Jelly bread with orange juice</h5>
           <span><i class="bi bi-currency-rupee"></i>80</span>
-          <form action="food_details.php" class="d-flex align-items-center">
+          <div class="d-flex align-items-center">
             <input type="text" value="1" class="counter_five form-control"/>
             <button type="button" class="incrementFour_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit" data-bs-target="#staticBackdrop" data-bs-toggle="modal" class="order_btn">order now</button>
               </div>
-          </form>
+          </div>
         </div>
       </div>
       <div class="swiper-slide">
@@ -233,13 +239,13 @@
           <img src="images/Foods/bred_juice.jpg" alt="" class="img-fluid">
           <h5>Jelly bread with orange juice</h5>
           <span><i class="bi bi-currency-rupee"></i>80</span>
-          <form action="food_details.php" class="d-flex align-items-center">
+          <div class="d-flex align-items-center">
             <input type="text" value="1" class="counter_six form-control"/>
             <button type="button" class="incrementFive_btn"><i class="bi bi-plus"></i></button>
             <div class="order_box">
-              <button type="submit"class="order_btn">order now</button>
+              <button type="submit" data-bs-target="#staticBackdrop" data-bs-toggle="modal" class="order_btn">order now</button>
             </div>
-          </form>
+          </div>
         </div>
       </div>
       </div>
@@ -261,13 +267,13 @@
             <img src="images/Foods/sandwich-cup-coffee-table.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="food_details.php" class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <input type="text" value="1" class="counter_one form-control"/>
               <button type="button" class="increment_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit"class="order_btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">order now</button>
               </div>
-            </form>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
@@ -275,13 +281,13 @@
             <img src="images/Foods/breakfast-consists-bread-boiled-eggs-black-grape-salad-dressing-tomatoes-sliced-onions.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="food_details.php" class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <input type="text" value="1" class="counter_two form-control"/>
               <button type="button" class="incrementOne_btn"><i class="bi bi-plus"></i></button>              
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit"class="order_btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">order now</button>
               </div>
-            </form>
+            </div>
             
           </div>
         </div>
@@ -290,13 +296,13 @@
             <img src="images/Foods/plate-food-with-glass-orange-juice-plate-food-with-sandwich.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="food_details.php" class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <input type="text" value="1" class="counter_three form-control"/>
               <button type="button" class="incrementTwo_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit"class="order_btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">order now</button>
               </div>
-            </form>
+            </div>
             
           </div>
         </div>
@@ -305,13 +311,13 @@
             <img src="images/Foods/coffee-beverage-sandwich.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="food_details.php" class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <input type="text" value="1" class="counter_four form-control"/>
               <button type="button" class="incrementThree_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit"class="order_btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">order now</button>
               </div>
-            </form>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
@@ -319,13 +325,13 @@
           <img src="images/Foods/omlet_bred.jpg" alt="" class="img-fluid">
           <h5>Jelly bread with orange juice</h5>
           <span><i class="bi bi-currency-rupee"></i>80</span>
-          <form action="food_details.php" class="d-flex align-items-center">
+          <div class="d-flex align-items-center">
             <input type="text" value="1" class="counter_five form-control"/>
             <button type="button" class="incrementFour_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit"class="order_btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">order now</button>
               </div>
-          </form>
+          </div>
         </div>
       </div>
       <div class="swiper-slide">
@@ -333,13 +339,13 @@
           <img src="images/Foods/bred_juice.jpg" alt="" class="img-fluid">
           <h5>Jelly bread with orange juice</h5>
           <span><i class="bi bi-currency-rupee"></i>80</span>
-          <form action="food_details.php" class="d-flex align-items-center">
+          <div  class="d-flex align-items-center">
             <input type="text" value="1" class="counter_six form-control"/>
             <button type="button" class="incrementFive_btn"><i class="bi bi-plus"></i></button>
             <div class="order_box">
-              <button type="submit"class="order_btn">order now</button>
+              <button type="submit"class="order_btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">order now</button>
             </div>
-          </form>
+          </div>
         </div>
       </div>
       </div>
@@ -360,13 +366,13 @@
             <img src="images/Foods/sandwich-cup-coffee-table.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="food_details.php" class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <input type="text" value="1" class="counter_one form-control"/>
               <button type="button" class="increment_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit"class="order_btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">order now</button>
               </div>
-            </form>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
@@ -374,13 +380,13 @@
             <img src="images/Foods/breakfast-consists-bread-boiled-eggs-black-grape-salad-dressing-tomatoes-sliced-onions.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="food_details.php" class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <input type="text" value="1" class="counter_two form-control"/>
               <button type="button" class="incrementOne_btn"><i class="bi bi-plus"></i></button>              
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit"class="order_btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">order now</button>
               </div>
-            </form>
+            </div>
             
           </div>
         </div>
@@ -389,13 +395,13 @@
             <img src="images/Foods/plate-food-with-glass-orange-juice-plate-food-with-sandwich.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="food_details.php" class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <input type="text" value="1" class="counter_three form-control"/>
               <button type="button" class="incrementTwo_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit"class="order_btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">order now</button>
               </div>
-            </form>
+            </div>
             
           </div>
         </div>
@@ -404,13 +410,13 @@
             <img src="images/Foods/coffee-beverage-sandwich.jpg" alt="" class="img-fluid">
             <h5>Jelly bread with orange juice</h5>
             <span><i class="bi bi-currency-rupee"></i>80</span>
-            <form action="food_details.php" class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
               <input type="text" value="1" class="counter_four form-control"/>
               <button type="button" class="incrementThree_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit"class="order_btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">order now</button>
               </div>
-            </form>
+            </div>
           </div>
         </div>
         <div class="swiper-slide">
@@ -418,13 +424,13 @@
           <img src="images/Foods/omlet_bred.jpg" alt="" class="img-fluid">
           <h5>Jelly bread with orange juice</h5>
           <span><i class="bi bi-currency-rupee"></i>80</span>
-          <form action="food_details.php" class="d-flex align-items-center">
+          <div  class="d-flex align-items-center">
             <input type="text" value="1" class="counter_five form-control"/>
             <button type="button" class="incrementFour_btn"><i class="bi bi-plus"></i></button>
               <div class="order_box">
-                <button type="submit"class="order_btn">order now</button>
+                <button type="submit"class="order_btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">order now</button>
               </div>
-          </form>
+          </div>
         </div>
       </div>
       <div class="swiper-slide">
@@ -432,13 +438,13 @@
           <img src="images/Foods/bred_juice.jpg" alt="" class="img-fluid">
           <h5>Jelly bread with orange juice</h5>
           <span><i class="bi bi-currency-rupee"></i>80</span>
-          <form action="food_details.php" class="d-flex align-items-center">
+          <div action="" class="d-flex align-items-center">
             <input type="text" value="1" class="counter_six form-control"/>
             <button type="button" class="incrementFive_btn"><i class="bi bi-plus"></i></button>
             <div class="order_box">
-              <button type="submit"class="order_btn">order now</button>
+              <button type="submit"class="order_btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">order now</button>
             </div>
-          </form>
+          </div>
         </div>
       </div>
       </div>
@@ -448,6 +454,30 @@
       </div>
   </div>
 </section>
+
+<div class="modal-dialog modal-dialog-centered">
+  ...
+</div>
+<div class="modal fade food_moadl" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="sgn_modal_top">
+          <h3>Let's get you an account first</h3>
+          <p>Please sign up or log in to continue. We've got thousands of variety delicious items just waiting for you!</p>
+          <img src="images/Animation_1.gif" alt="">
+        </div>
+        <form action="signup.php"class="sgn_modal_top bg_transpatent">
+          <div class="log_btn_box text-center">
+            <a href="signup.php" class="btn">Signup</a>
+            <p>Allready have an account? <a href="login.php">Login</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 
 <?php require('inc/footer.php'); ?>
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>

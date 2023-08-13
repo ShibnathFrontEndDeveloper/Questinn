@@ -77,7 +77,7 @@
     <div class="container">
         <h1 class="booking_heading">Booking</h1>
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 room_booking_box">
                 <form action="" class="booking_form">
                     <div class="logo_box">
                         <a href="index.php"><img src="images/questinn_logo_white.png" alt="" srcset="" class="img-fluid"></a>
@@ -184,8 +184,8 @@
                         <div class="form-group mb-3">
                             <button type="submit" class="btn ">Send</button>
                         </div>
-                    </form>
-                </div>
+                    </div>
+                </form>
             </div>
             <div class="col-lg-4">
                 <div class="roombooking_details">
@@ -196,6 +196,9 @@
                         <h1 class="booking_heading mt-3">About Questinn</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ipsam voluptas autem laboriosam dolores incidunt nulla facere facilis officia veritatis eum dolorem doloribus enim obcaecati! Dolorum, tempore quia sit suscipit voluptates explicabo in sunt dolor! Cupiditate, soluta reprehenderit sequi eius ducimus quibusdam amet recusandae nostrum vero veritatis. Delectus, veniam dolorem.</p>
                     </div>
+                </div>
+                <div class="text-center">
+                    <button class="btn">Payment</button>
                 </div>
                 
             </div>

@@ -103,6 +103,8 @@ html{
 	.top_header{
 		padding: 5px 9%;
 		background: #424141;
+		display: flex;
+		flex-direction: column;
 	}
 	.top_header .adders_part{
 		display: flex;
@@ -116,23 +118,14 @@ html{
 	.top_header .adders_part .bi{
 		color: aqua;
 	}
-	.navbar{
-		background: #000000;
-	}
-	.bg_navBar{
-		background: #1f244ac2;
-		transition: .8s ease-in-out;
-		backdrop-filter: blur(10px);
-		padding-bottom: 5px !important;
-	}
-	.bg_navBar .brand{
-		width: 90px !important;
-		transition: .8s ease-in-out;
-	}
-	.navbar-brand .brand{
+	
+	.bgLogo_navBar .brand{
 		width: 120px;
 		animation: bouncsy 1s linear;
 		transition: .8s ease-in-out;
+	}
+	.nav_head.bg_navBar .bgLogo_navBar .brand{
+		width: 90px !important;
 	}
 	
 	@keyframes bouncsy {
@@ -147,18 +140,159 @@ html{
 		}
 	}
 	
-	.navbar-expand-lg .navbar-nav{
+	
+	#stop_nav{
 		width: 100%;
+		position: absolute;
+		left: 0;
+		background: #000;
+		z-index: 100;
+		padding: 20px 120px;
+		margin-top: 29px;
 	}
-	.navbar-expand-lg .navbar-nav .nav-link{
+	.nav_head.bg_navBar{
+		background: rgba(58, 58, 58, 0.601) !important;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 90px !important;
+		padding-top: 10px !important;
+		position: fixed !important;
+		
+		margin-top: 0 !important;
+	}
+	.navbar_wrap{
+		display: flex;
+		align-items: center;
+		justify-content: end;
+		width: 100%;
+		
+	}
+
+	@media screen and (max-width:992px) {
+		.navbar_wrap{
+			display: none;
+		}
+		.navbar_wrap .navBar{
+			position: absolute;
+			top: 100px;
+			left: -100%;
+			display: block !important;
+			height: 100vh;
+			background: rgba(89, 92, 99, 0.9);
+			width: 50%;
+			backdrop-filter: blur(10px);
+			transition: .8s ease-in-out;
+			display: none !important;
+		}
+		.bg_navColor{
+			background: rgba(20, 20, 20, 0.894) !important;
+			backdrop-filter: blur(10px) !important;
+		}
+		.navBar.nav_ofcanvas{
+			left: 0%;
+			transition: .8s ease-in-out;
+			display: none;
+		}
+		.nav_head.bg_navBar{
+			height: 100px !important;
+		}
+		.navbar_wrap .navBar .navbar_list{
+			padding-top: 50px;
+		}
+		.navbar_wrap .navBar .nav_link{
+			font-size: 24px !important;
+		}
+		.toggler_iconBox{
+			display: block !important;
+			cursor: pointer;
+			width: 100%;
+			text-align: right;
+			
+		}
+		.toggler_iconBox i{
+			font-size: 40px !important;
+		}
+		.mobile_offcanvas{
+			background: #f0c10da6;
+			backdrop-filter: blur(10px);
+			width: 50%;
+		}
+		.mobile_nav .navbar_list{
+			padding-top: 20px;
+			list-style: none;
+			margin-top: 10px;
+		}
+		.mobile_nav{
+			padding-left: 0;
+		}
+		.mobile_nav .navbar_list .nav_link {
+			font-size: 30px;
+			color: #fff;
+			text-decoration: none;
+			line-height: 3;
+		}
+		.mobile_offcanvas .offcanvas-header{
+			background: #8f7a03;
+			justify-content: center;
+			border-bottom: 1px solid #322b01;
+		}
+		.mobile_offcanvas .offcanvas-header .bgLogo_navBar .brand{
+			width: 180px;
+		}
+		.mobile_offcanvas .offcanvas-header .btn-close{
+			position: absolute;
+			right: 0;
+			top: 0;
+			padding: 30px;
+			font-size: 25px;
+			background: transparent;
+		}
+		.mobile_offcanvas .offcanvas-header .btn-close svg{
+			width: 35px;
+			height: 35px;
+		}
+		.mobile_offcanvas .offcanvas-header .btn-close svg path{
+			color: #fff;
+		}
+		.mobile_navbar_wrap .mobile_log_btn_box .btn{
+			font-size: 30px !important;
+		}
+		.cart_box{
+			margin-top: 20px;
+		}
+		.cart_box .btn-primary svg{
+			width: 50px;
+			height: 50px;
+		}
+		.cart_box .btn-primary .bg-danger{
+			width: 32px !important;
+			height: 32px !important;
+		}
+		.cart_box .btn-primary .bg-danger .visually-visible {
+			font-size: 20px !important;
+		}
+	}
+
+
+
+
+
+
+	.navbar_wrap .navBar{
+		display: inline-flex;
+		list-style: none;
+		margin-bottom: 0;
+		
+	}
+	.navbar_wrap .navBar .nav_link{
+		padding-right: 30px;
+		text-decoration: none;
 		color: #fff;
+		font-size: 14px;
 	}
-	.navbar-toggler{
-		background: #ab8517;
-	}
-	.navbar-toggler .navbar-toggler-icon .bi{
-		font-size: 30px;
-		color: #fff;
+	.navbar_wrap .navBar .nav_link.active{
+		color: #2FE0E3;
 	}
 	.log_btn_box .btn{
 		color: #fff;
@@ -177,10 +311,44 @@ html{
 	.cart_box{
 		padding: 15px;
 	}
+	.cart_box .btn-primary{
+		background: transparent;
+		border: none;
+	}
+	.cart_box .btn-primary:focus{
+		border: none;
+		box-shadow: none;
+	}
+	.cart_box .btn-primary .bg-danger{
+		background: #3d47ff !important;
+		width: 20px;
+		height: 20px;
+		transform: translate(-101%,-31%)!important;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.cart_box .btn-primary .bg-danger .visually-visible{
+		font-size: 12px;
+	}
 	.cart_box .bi{
 		font-size: 25px;
 		color: #fff;
 		cursor: pointer;
+	}
+	.toggler_iconBox{
+		display: none;
+	}
+	.toggler_iconBox i{
+		color: #fff;
+		font-size: 20px;
+	}
+	.cart_detail_box .cart_button_box{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.cart_detail_box .cart_button_box .book_btn{
+		width: 200px;
 	}
 
 	/*////////////////////////
@@ -503,14 +671,21 @@ html{
 	.room_box .card{
 		overflow: hidden;
 	}
+	.questInnRooms .room_box{
+		width: 33.3%;
+	}
 	.room_box .room_img_box{
-		width: 100%;
-		height: 160px;
+		/* width: 100%;
+		height: 160px; */
 		overflow: hidden;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		
+	}
+
+	.room_box .room_img_box img{
+		width:100%;
 	}
 	.bm_btn_box .book_btn{
 		background:#2FE0E3;
@@ -561,15 +736,41 @@ html{
 		display: flex;
 		justify-content: center;
 	}
-	.food_detailImg_box img{
-		width: 300px;
+	.cart_table img{
+		width: 80px;
 	}
-	.counter_box{
-		width: 120px;
+	.cart_table thead td{
+		font-weight: 600;
+	}
+	.cart_table .table_select{
+		width: 80px;
+	}
+	.cart_table tbody td{
+		vertical-align: middle;
+	}
+	.cart_table .bg-transparent{
+		background: transparent !important;
+	}
+	.cart_table .btn:focus{
+		box-shadow: none;
+	}
+	.cart_table .removeRow{
+		display: none;
+	}
+	.cart_details_cart .cart_header{
+		background: #2FE0E3 !important;
+	}
+	.cart_details_cart .cart_header .cart_details_heading{
+
+		font-size: 25px;
 	}
 	.add_box .rder_box{
 		text-align: left !important;
 		margin-top: 15px;
+	}
+
+	.details_rooms{
+		padding: 70px 0;
 	}
 
 	/*//////////////////////////
@@ -590,6 +791,9 @@ html{
 	}
 	.food_cart_body .elig_para .bi{
 		color: rgb(29, 148, 8);
+	}
+	.cart_img{
+		width: 120px;
 	}
 		
 
@@ -697,7 +901,7 @@ html{
 }
 .food_search .food_btn{
 	border-radius: 0;
-	width: 41%;
+	width: 20%;
 	padding: 5px !important;
 	font-size: 13px;
 	border: none;
@@ -708,13 +912,39 @@ html{
 }
 .food_search .form-control{
 	border: none;
-	width: 59%;
+	width: 80%;
 	padding: 5px !important;
 }
 .food_search .form-control:focus{
 	border: none;
 	outline: none;
 	box-shadow: none;
+}
+
+.food_moadl .btn-close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.food_moadl .sgn_modal_top{
+	background: #baf7f8;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 15px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+.food_moadl .sgn_modal_top h3{
+	font-size: 22px;
+	font-weight: 600;
+	text-align: left;
+}
+.food_moadl .bg_transpatent{
+	background: transparent !important;
+}
+.food_moadl .sgn_modal_top p{
+	font-size: 14px;
 }
 
 
@@ -1044,10 +1274,15 @@ html{
 	  /*////////////////////////////////////////////
 	  Booking/////////////////////////////////////////////
 	  /*/
+	 .room_booking_box{
+		background:linear-gradient(45deg, rgb(62, 124, 238),rgb(150, 59, 255) );
+	 }
 	  .booking_form{
 		padding: 50px;
-		background: #38383883;
+		
+		
 	  }
+	  
 	  .booking_form .logo_box{
 		width: 100%;
 		display: flex;
@@ -1088,7 +1323,7 @@ html{
 		color: red;
 	  }
 	 .payment_page{
-		padding: 50px 0;
+		padding: 150px 0;
 		background-image: url(../images/delvery_bg.png);
 		background-position: center right;
 		background-size: calc(100% - 50%);
@@ -1142,8 +1377,37 @@ html{
 			height: 0;
 			overflow: hidden;
 		}
+		.questInnRooms .room_box{
+			width: 100%;
+		}
+		
 		
 	 }
-	 
+	 @media screen and (min-width:1200px){
+		.container{
+			max-width: 1140px !important;
+		}
+		.home_carousel .home_slide {
+			min-height: 80vh !important ;
+		}
+		.food_home{
+			height: 80vh !important;
+		}
+		
+	 }
+	
+
+	 @media screen and (min-width:560px) {
+		.container{
+			max-width: 840px;
+		}
+		.home_carousel .home_slide {
+			min-height: 35vh ;
+		}
+		.food_home{
+			height: 35vh;
+		}
+	 }
+
 
 	

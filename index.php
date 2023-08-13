@@ -16,6 +16,7 @@
 <body>
 
 <?php require('inc/header.php'); ?>
+
 <!-- Swiper Carousal-->
 <section class="home_carousel">
 	<div class="swiper home_swiper">
@@ -174,7 +175,7 @@
 	<div class="container">
 		<div class="row">
 
-			<div class="col-lg-4 col-md-6 my-3 room_box">
+			<div class=" my-3 room_box">
 				<div class="card">
 					<div class="room_img_box">
 						<img src="images/rooms/room-1.png">
@@ -244,7 +245,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-4 col-md-6 my-3 room_box">
+			<div class=" my-3 room_box">
 				<div class="card">
 					<div class="room_img_box">
 						<img src="images/rooms/room-2.png">
@@ -313,7 +314,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-4 col-md-6 my-3 room_box">
+			<div class=" my-3 room_box">
 				<div class="card">
 					<div class="room_img_box">
 						<img src="images/rooms/room-3.png">
